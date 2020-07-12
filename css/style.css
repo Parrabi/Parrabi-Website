@@ -191,7 +191,7 @@ h1 {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: #454545;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -384,10 +384,35 @@ a {
 }
 
 a:hover {
-  background-color: rgb(88, 88, 88);
+/*  background-color: rgb(88, 88, 88);*/
   color: black;
 }
 .previous {
   background-color: #ddd;
   color: black;
+}
+
+#small-button{
+    height: 50px;
+    width: 200px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-self: right;
+}
+
+.header-logo{
+    width: 20%;
+    position: relative;
+    left: -5px;
 }
